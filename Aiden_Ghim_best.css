@@ -5,6 +5,11 @@ body {
     font-style: normal;
 }
 
+main {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
 header {
     /* flexbox in header */
     display: flex;
@@ -68,6 +73,21 @@ header {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 60px;
+    text-align: center;
+
+    margin-bottom: 1%;
+}
+
+#introp {
+
+    margin-top: 0%;
+
+    font-size: 30px;
+    text-align: center;
+}
+
 #logoimg {
     width: 200px;
 }
@@ -85,4 +105,27 @@ a {
 
 footer {
     text-align: center;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.bestbox {
+    padding: 1%;
+    margin: 1%;
+    width: 30%;
+    border: #5b53fa solid 2px;
+}
+
+#purple {
+    background-color: #5b53fa;
+    color: white;
+}
+
+img {
+    align-self: center;
+    width: 96%;
 }
