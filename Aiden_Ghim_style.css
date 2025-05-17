@@ -175,6 +175,7 @@ h2 {
     margin-bottom: 8px;
     margin-top: 0%;
     font-size: 40px;
+    text-align: center;
 }
 
 span {
@@ -194,4 +195,27 @@ h3 {
 
 footer {
     text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    width: 70px;
+    height: 35px;
+    text-align: center;
+    font-family: "Share Tech", sans-serif;
+    font-size: 20px;
+    background-color: #5b53fa;
+    color: white;
+    border: none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+input {
+    margin: 1%;
 }
