@@ -72,9 +72,11 @@ header {
     color: #5b53fa;
     text-decoration: none;
 }
+
 .headerlink:active {
     font-size: 22px;
 }
+
 h1 {
     font-size: 60px;
     text-align: center;
@@ -128,6 +130,7 @@ footer {
 }
 
 img {
-    align-self: center;
-    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
