@@ -67,7 +67,9 @@ header {
     color: #5b53fa;
     text-decoration: none;
 }
-
+.headerlink:active {
+    font-size: 22px;
+}
 #logoimg {
     width: 200px;
 }
