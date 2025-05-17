@@ -1,5 +1,5 @@
 body {
-    margin: 0%;
+    margin: 0;
     font-family: "Share Tech", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -78,10 +78,49 @@ header {
     font-size: 20px;
 }
 
+main {
+    margin-left: 2%;
+    margin-right: 2%;
+}
 
 a {
     text-decoration: none;
 }
+
 footer {
     text-align: center;
+}
+
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+#products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div.product {
+    width: 30%;
+    margin: 1%;
+    border: #5b53fa solid 2px;
+}
+
+div.product h2 {
+    width: 100%;
+    padding: 2%;
+}
+
+div.product img {
+    width: 96%;
+    padding: 2%;
+
+}
+
+div.product p {
+    width: 100%;
+    padding: 2%;
 }
