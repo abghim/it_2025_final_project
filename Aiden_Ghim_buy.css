@@ -109,6 +109,11 @@ div.product {
     border: #5b53fa solid 2px;
 }
 
+.product:hover {
+    background-color: #5b53fa;
+    color: white;
+}
+
 div.product h2 {
     width: 100%;
     padding: 2%;
